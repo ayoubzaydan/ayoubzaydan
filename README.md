@@ -1,6 +1,6 @@
 # 🚗 Aplicación Móvil para la Gestión de Reservas en un Lavadero de Coches (CarWash)
 
-![CarWash App](https://via.placeholder.com/800x400.png?text=CarWash+App)
+![CarWash App](https://apptechllc.com/wp-content/uploads/car-wash.jpg)
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Android Studio](https://img.shields.io/badge/Android%20Studio-Kotlin-blue.svg)](https://developer.android.com/studio)
