@@ -1,6 +1,6 @@
 # 🚗 Aplicación Móvil para la Gestión de Reservas en un Lavadero de Coches (CarWash)
 
-![CarWash App](https://apptechllc.com/wp-content/uploads/car-wash.jpg)
+![CarWash App](https://via.placeholder.com/800x400.png?text=CarWash+App)
 
 
 [![Android Studio](https://img.shields.io/badge/Android%20Studio-Kotlin-blue.svg)](https://developer.android.com/studio)
@@ -73,7 +73,8 @@ Este proyecto consiste en el desarrollo de una aplicación móvil intuitiva para
 ---
 
 ## 📺 Video Demostrativo
-[![Texto alternativo](https://apptechllc.com/wp-content/uploads/car-wash.jpg)](https://www.youtube.com/watch?v=vJapzH_46a8&list=PL8ie04dqq7_OcBYDpvHrcSFVoggLi3cm_)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=D3IZIkm_2Lw" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 ## 📊 Gráfica Circular de Tipos de Lavado
@@ -138,19 +139,17 @@ erDiagram
 
 ---
 
-## 📅 Diagrama Gantt de Desarrollo
+## 🚀 Diagrama Journey del Usuario
 ```mermaid
-gantt
-title Cronograma de Desarrollo
-    section Planificación
-    Análisis de requisitos :done, a1, 2025-03-20, 2025-03-30
-    Diseño de arquitectura :done, a2, 2025-03-31, 2025-04-10
-    section Desarrollo
-    Implementación frontend :active, a3, 2025-04-11, 2025-05-05
-    Desarrollo base de datos :a4, 2025-05-06, 2025-05-20
-    section Pruebas
-    Pruebas de funcionalidad :a5, 2025-05-21, 2025-05-30
-    Optimización y entrega :a6, 2025-06-01, 2025-06-10
+journey
+    title Experiencia del Usuario en la App
+    section Reserva
+      Usuario: 5: Selecciona tipo de lavado
+      Usuario: 4: Confirma reserva
+      App: 3: Envía notificación
+    section Servicio
+      Usuario: 4: Lleva el coche al lavadero
+      Lavadero: 5: Realiza el servicio
 ```
 
 ---
@@ -174,14 +173,14 @@ gitGraph
 gantt
 title Cronograma de Desarrollo
     section Planificación
-    Análisis de requisitos :done, a1, 2024-02-01, 2024-02-10
-    Diseño de arquitectura :done, a2, 2024-02-11, 2024-02-20
+    Análisis de requisitos :done, a1, 2025-03-20, 2025-03-30
+    Diseño de arquitectura :done, a2, 2025-03-31, 2025-04-10
     section Desarrollo
-    Implementación frontend :active, a3, 2024-02-21, 2024-03-15
-    Desarrollo base de datos :a4, 2024-03-16, 2024-03-30
+    Implementación frontend :active, a3, 2025-04-11, 2025-05-05
+    Desarrollo base de datos :a4, 2025-05-06, 2025-05-20
     section Pruebas
-    Pruebas de funcionalidad :a5, 2024-04-01, 2024-04-10
-    Optimización y entrega :a6, 2024-04-11, 2024-04-20
+    Pruebas de funcionalidad :a5, 2025-05-21, 2025-05-30
+    Optimización y entrega :a6, 2025-06-01, 2025-06-10
 ```
 
 ---
