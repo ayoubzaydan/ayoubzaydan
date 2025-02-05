@@ -138,17 +138,19 @@ erDiagram
 
 ---
 
-## 🚀 Diagrama Journey del Usuario
+## 📅 Diagrama Gantt de Desarrollo
 ```mermaid
-journey
-    title Experiencia del Usuario en la App
-    section Reserva
-      Usuario: 5: Selecciona tipo de lavado
-      Usuario: 4: Confirma reserva
-      App: 3: Envía notificación
-    section Servicio
-      Usuario: 4: Lleva el coche al lavadero
-      Lavadero: 5: Realiza el servicio
+gantt
+title Cronograma de Desarrollo
+    section Planificación
+    Análisis de requisitos :done, a1, 2025-03-20, 2025-03-30
+    Diseño de arquitectura :done, a2, 2025-03-31, 2025-04-10
+    section Desarrollo
+    Implementación frontend :active, a3, 2025-04-11, 2025-05-05
+    Desarrollo base de datos :a4, 2025-05-06, 2025-05-20
+    section Pruebas
+    Pruebas de funcionalidad :a5, 2025-05-21, 2025-05-30
+    Optimización y entrega :a6, 2025-06-01, 2025-06-10
 ```
 
 ---
