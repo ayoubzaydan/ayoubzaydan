@@ -73,7 +73,7 @@ Este proyecto consiste en el desarrollo de una aplicación móvil intuitiva para
 ---
 
 ## 📺 Video Demostrativo
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=D3IZIkm_2Lw" frameborder="0" allowfullscreen></iframe>
+[![Texto alternativo](https://apptechllc.com/wp-content/uploads/car-wash.jpg)](https://www.youtube.com/watch?v=vJapzH_46a8&list=PL8ie04dqq7_OcBYDpvHrcSFVoggLi3cm_)
 
 ---
 
