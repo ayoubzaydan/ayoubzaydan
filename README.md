@@ -1,38 +1,205 @@
-# !Hola, mi nombre es Ayoub Zaydan 👋
+# 🚗 Aplicación Móvil para la Gestión de Reservas en un Lavadero de Coches (CarWash)
 
-# Proyecto Final de Grado: [Nombre del Proyecto] 🎓✨
+![CarWash App](https://via.placeholder.com/800x400.png?text=CarWash+App)
 
-¡Bienvenido a nuestro proyecto final de grado! A lo largo de este trabajo, hemos creado una solución innovadora que busca [objetivo principal del proyecto]. Este README.md tiene como propósito proporcionar una visión clara y concisa de lo que hemos hecho, cómo lo hemos logrado y qué tecnologías hemos utilizado. Queremos que esta sea tu primera impresión de nuestro esfuerzo, creatividad y conocimiento. 😊
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Android Studio](https://img.shields.io/badge/Android%20Studio-Kotlin-blue.svg)](https://developer.android.com/studio)
 
-## 📋 Descripción del Proyecto
+---
 
-En este proyecto, hemos trabajado para desarrollar una [descripción breve del proyecto]. Nuestro objetivo fue [objetivo], y para ello implementamos [metodología o enfoque utilizado]. Este proyecto no solo refleja nuestras habilidades técnicas, sino también nuestra capacidad de trabajo en equipo y nuestra pasión por la innovación.
+## 📌 Descripción del Proyecto
+Este proyecto consiste en el desarrollo de una aplicación móvil intuitiva para la gestión de reservas en un lavadero de coches. La aplicación permitirá a los clientes:
+- Programar citas para el lavado de sus vehículos.
+- Seleccionar entre distintos tipos de lavado.
+- Consultar su historial de servicios.
+- Recibir notificaciones sobre recordatorios y promociones.
 
-### ¿Por qué es importante?
+🎯 **Objetivos:**
+- Desarrollar una aplicación móvil intuitiva.
+- Brindar opciones para seleccionar diferentes tipos de lavado disponibles.
+- Permitir a los usuarios visualizar su historial de servicios.
+- Enviar notificaciones para recordar citas y promociones.
 
-Este proyecto aborda [problema o necesidad], lo que lo convierte en una solución relevante para [industria, comunidad, etc.]. Creemos que esta herramienta o producto tiene el potencial de [beneficios y logros esperados].
+---
 
-## 🛠 Tecnologías Utilizadas
+## 🏢 Vinculación a Empresa
+- No se encuentra vinculada a ninguna empresa.
 
-Para llevar a cabo este proyecto, hemos utilizado una combinación de tecnologías modernas que nos han permitido crear una solución robusta y escalable. Estas son algunas de las herramientas que utilizamos:
+---
 
-![badge](https://img.shields.io/badge/Language-JavaScript-brightgreen)
-![badge](https://img.shields.io/badge/Framework-React-blue)
-![badge](https://img.shields.io/badge/Database-MongoDB-yellow)
+## 📋 Actividades a Realizar
 
-- **Lenguaje:** JavaScript, Python
-- **Framework:** React, Django
-- **Base de datos:** MongoDB, PostgreSQL
-- **Herramientas de desarrollo:** Docker, Webpack, Git
+### 🔍 1. Análisis y Planificación
+- Definir requisitos funcionales y no funcionales.
+- Diseñar la arquitectura de la aplicación.
 
-## 🌍 ¿Cómo Funciona?
+### 🎨 2. Diseño de la Interfaz
+- Crear un prototipo de la aplicación utilizando herramientas de diseño.
+- Definir un diseño UX/UI enfocado en mejorar la experiencia del usuario.
 
-El funcionamiento del proyecto se puede dividir en varias fases, que se explican a continuación:
+### 💻 3. Desarrollo
+- Implementación del frontend utilizando Kotlin en Android Studio.
+- Desarrollo de la base de datos local en SQL Server.
+- Implementación de la lógica de reservas y gestión de usuarios.
 
+### ✅ 4. Pruebas y Optimización
+- Realizar pruebas de funcionalidad y usabilidad.
+- Optimizar el rendimiento de la aplicación.
+
+---
+
+## 🛠️ Recursos Necesarios
+
+### 🖥️ Hardware
+| Recurso | Descripción |
+|---------|-------------|
+| Equipo Informático | Sistema operativo Windows |
+| Conexión a Internet | Necesaria para desarrollo y pruebas |
+
+### 🖥️ Software y Tecnologías
+| Software | Uso |
+|----------|-----|
+| Android Studio | Desarrollo de la aplicación móvil |
+| Kotlin | Lenguaje de programación principal |
+| SQL Server | Almacenamiento de datos |
+| Figma | Diseño de interfaz |
+
+---
+
+## 🌐 Otras Consideraciones
+- 🔗 Posible integración con una plataforma web para la gestión administrativa.
+- 💳 Evaluación de futuras mejoras como pago en línea y geolocalización de lavaderos cercanos.
+
+---
+
+## 📺 Video Demostrativo
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=D3IZIkm_2Lw" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## 📊 Gráfica Circular de Tipos de Lavado
 ```mermaid
 graph TD;
-  A[Inicio del Proyecto] --> B[Planificación y Diseño];
-  B --> C[Desarrollo del Backend];
-  C --> D[Desarrollo del Frontend];
-  D --> E[Integración y Pruebas];
-  E --> F[Despliegue];
+    A[Tipos de Lavado] -->|Económico| B(Económico - 30%)
+    A -->|Estándar| C(Estándar - 50%)
+    A -->|Premium| D(Premium - 20%)
+```
+
+---
+
+## 📜 Diagrama de Flujo de Reserva
+```mermaid
+flowchart TD;
+    A[Inicio] --> B[Seleccionar Tipo de Lavado]
+    B --> C[Seleccionar Fecha y Hora]
+    C --> D[Confirmar Reserva]
+    D --> E[Notificación Enviada]
+    E --> F[Reserva Exitosa]
+```
+
+---
+
+## 🔄 Diagrama de Secuencia de una Reserva
+```mermaid
+sequenceDiagram
+    participant Usuario
+    participant App
+    participant Servidor
+    Usuario->>App: Selecciona tipo de lavado
+    App->>Servidor: Envía solicitud de reserva
+    Servidor->>App: Confirma disponibilidad
+    App->>Usuario: Muestra confirmación
+    App->>Servidor: Guarda reserva
+    Servidor->>Usuario: Envía notificación
+```
+
+---
+
+## 🗂️ Diagrama Entidad-Relación
+```mermaid
+erDiagram
+    Usuario ||--o{ Reserva : hace
+    Reserva ||--|{ Servicio : incluye
+    Usuario {
+        int id
+        string nombre
+        string correo
+    }
+    Reserva {
+        int id
+        date fecha
+        int usuario_id
+    }
+    Servicio {
+        int id
+        string tipo
+        float precio
+    }
+```
+
+---
+
+## 🚀 Diagrama Journey del Usuario
+```mermaid
+journey
+    title Experiencia del Usuario en la App
+    section Reserva
+      Usuario: 5: Selecciona tipo de lavado
+      Usuario: 4: Confirma reserva
+      App: 3: Envía notificación
+    section Servicio
+      Usuario: 4: Lleva el coche al lavadero
+      Lavadero: 5: Realiza el servicio
+```
+
+---
+
+## 🌳 Diagrama Git Workflow
+```mermaid
+gitGraph
+    commit
+    branch feature/reservas
+    checkout feature/reservas
+    commit
+    checkout main
+    merge feature/reservas
+    commit
+```
+
+---
+
+## 📅 Diagrama Gantt de Desarrollo
+```mermaid
+gantt
+title Cronograma de Desarrollo
+    section Planificación
+    Análisis de requisitos :done, a1, 2024-02-01, 2024-02-10
+    Diseño de arquitectura :done, a2, 2024-02-11, 2024-02-20
+    section Desarrollo
+    Implementación frontend :active, a3, 2024-02-21, 2024-03-15
+    Desarrollo base de datos :a4, 2024-03-16, 2024-03-30
+    section Pruebas
+    Pruebas de funcionalidad :a5, 2024-04-01, 2024-04-10
+    Optimización y entrega :a6, 2024-04-11, 2024-04-20
+```
+
+---
+
+## 📌 Diagrama de Requerimientos
+```mermaid
+mindmap
+  root((Requerimientos))
+    Funcionales
+      Reservas en línea
+      Historial de servicios
+    No Funcionales
+      Seguridad
+      Usabilidad
+```
+
+---
+
+## 📞 Contacto
+📧 Para más información sobre el proyecto, puedes contactar al equipo de desarrollo.
+
+[Volver al inicio](#🚗-Aplicación-Móvil-para-la-Gestión-de-Reservas-en-un-Lavadero-de-Coches-CarWash)
